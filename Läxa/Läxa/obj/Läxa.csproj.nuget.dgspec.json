@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andreas.vins\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\andreas.vins\\source\\repos\\Läxa\\Läxa\\Läxa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andreas.vins\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\andreas.vins\\source\\repos\\Läxa\\Läxa\\Läxa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andreas.vins\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
-        "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\andreas.vins\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\andreas.vins\\source\\repos\\Läxa\\Läxa\\Läxa.csproj",
+        "projectName": "Läxa",
+        "projectPath": "C:\\Users\\andreas.vins\\source\\repos\\Läxa\\Läxa\\Läxa.csproj",
         "packagesPath": "C:\\Users\\andreas.vins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andreas.vins\\source\\repos\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\andreas.vins\\source\\repos\\Läxa\\Läxa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andreas.vins\\AppData\\Roaming\\NuGet\\NuGet.Config",

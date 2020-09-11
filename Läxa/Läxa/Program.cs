@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace Läxa
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Niklas!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
