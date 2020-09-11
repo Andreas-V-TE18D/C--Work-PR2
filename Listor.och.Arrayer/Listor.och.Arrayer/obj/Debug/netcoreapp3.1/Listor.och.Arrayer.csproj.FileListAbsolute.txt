@@ -1,0 +1,12 @@
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\bin\Debug\netcoreapp3.1\Listor.och.Arrayer.exe
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\bin\Debug\netcoreapp3.1\Listor.och.Arrayer.deps.json
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\bin\Debug\netcoreapp3.1\Listor.och.Arrayer.runtimeconfig.json
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\bin\Debug\netcoreapp3.1\Listor.och.Arrayer.runtimeconfig.dev.json
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\bin\Debug\netcoreapp3.1\Listor.och.Arrayer.dll
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\bin\Debug\netcoreapp3.1\Listor.och.Arrayer.pdb
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\obj\Debug\netcoreapp3.1\Listor.och.Arrayer.AssemblyInfoInputs.cache
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\obj\Debug\netcoreapp3.1\Listor.och.Arrayer.AssemblyInfo.cs
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\obj\Debug\netcoreapp3.1\Listor.och.Arrayer.csproj.CoreCompileInputs.cache
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\obj\Debug\netcoreapp3.1\Listor.och.Arrayer.dll
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\obj\Debug\netcoreapp3.1\Listor.och.Arrayer.pdb
+C:\Users\andreas.vins\source\repos\Listor.och.Arrayer\Listor.och.Arrayer\obj\Debug\netcoreapp3.1\Listor.och.Arrayer.genruntimeconfig.cache
