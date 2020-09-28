@@ -14,8 +14,8 @@ namespace Variabler.och.Datatyper
             string namn = (Console.ReadLine());
 
 
-            Console.WriteLine("Du är : " + age);
-            Console.WriteLine("Ditt namn är ")
+            Console.WriteLine("Din ålder är : " + age );
+            Console.WriteLine("Ditt namn är " + namn);
 
 
 
