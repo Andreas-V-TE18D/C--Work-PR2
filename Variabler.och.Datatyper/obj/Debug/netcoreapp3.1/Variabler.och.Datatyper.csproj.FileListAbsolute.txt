@@ -1,0 +1,13 @@
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\bin\Debug\netcoreapp3.1\Variabler.och.Datatyper.exe
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\bin\Debug\netcoreapp3.1\Variabler.och.Datatyper.deps.json
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\bin\Debug\netcoreapp3.1\Variabler.och.Datatyper.runtimeconfig.json
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\bin\Debug\netcoreapp3.1\Variabler.och.Datatyper.runtimeconfig.dev.json
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\bin\Debug\netcoreapp3.1\Variabler.och.Datatyper.dll
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\bin\Debug\netcoreapp3.1\Variabler.och.Datatyper.pdb
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.csprojAssemblyReference.cache
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.AssemblyInfoInputs.cache
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.AssemblyInfo.cs
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.csproj.CoreCompileInputs.cache
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.dll
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.pdb
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Variabler.och.Datatyper\obj\Debug\netcoreapp3.1\Variabler.och.Datatyper.genruntimeconfig.cache
