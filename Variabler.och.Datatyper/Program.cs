@@ -7,10 +7,16 @@ namespace Variabler.och.Datatyper
         static void Main(string[] args)
         {
           
-            Console.WriteLine("Skriv Din Ålder,Namn och om du är vid liv");
+            Console.WriteLine("Skriv Din Ålder");
+            Console.WriteLine("Skriv Ditt Namn");
+            Console.WriteLine("Skriv om Du är vid liv"); 
             int age = Convert.ToInt32(Console.ReadLine());
+            string namn = (Console.ReadLine());
 
-            Console.WriteLine("Your age is: " + age);
+
+            Console.WriteLine("Du är : " + age);
+            Console.WriteLine("Ditt namn är ")
+
 
 
         }
