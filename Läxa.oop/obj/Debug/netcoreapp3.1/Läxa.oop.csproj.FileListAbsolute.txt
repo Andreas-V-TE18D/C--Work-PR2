@@ -1,0 +1,13 @@
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\bin\Debug\netcoreapp3.1\Läxa.oop.exe
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\bin\Debug\netcoreapp3.1\Läxa.oop.deps.json
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\bin\Debug\netcoreapp3.1\Läxa.oop.runtimeconfig.json
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\bin\Debug\netcoreapp3.1\Läxa.oop.runtimeconfig.dev.json
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\bin\Debug\netcoreapp3.1\Läxa.oop.dll
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\bin\Debug\netcoreapp3.1\Läxa.oop.pdb
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.csprojAssemblyReference.cache
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.AssemblyInfoInputs.cache
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.AssemblyInfo.cs
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.csproj.CoreCompileInputs.cache
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.dll
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.pdb
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\Läxa.oop\obj\Debug\netcoreapp3.1\Läxa.oop.genruntimeconfig.cache
