@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace Läxa.oop
 {
@@ -27,9 +29,23 @@ namespace Läxa.oop
 
         public void Produkt()
         {
+            Console.WriteLine("Skriv Kundes Produkt"); 
+
+           
+
+           
+        }
+
+        public void Lista()
+        {
+
 
 
         }
+
+
+
+
 
 
     }
