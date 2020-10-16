@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOPIntro
+namespace Läxa.oop
 {
-    class Product
+    class Vapen
     {
-        public string _productName;
     }
 }

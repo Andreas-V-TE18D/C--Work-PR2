@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Läxa.oop
+namespace OOPIntro
 {
-    class Class1
+    class Customer
     {
+        public List<Product> _cart = new List<Product>();
     }
 }

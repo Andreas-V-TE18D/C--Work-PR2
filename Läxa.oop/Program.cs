@@ -1,57 +1,30 @@
 ﻿using System;
-using System.Runtime.InteropServices;
-using System.Threading;
 
-namespace Läxa.oop
+namespace OOPIntro
 {
-    class Huvudboss 
+    class Program
     {
-        public void Meny()
+        static void Main(string[] args)
         {
-            //En huvudklass som kör programmet
-            //En klass som representerar en Kund
-            //En klass som representerar en Produkt
-            Console.WriteLine("OPP");
-            Console.WriteLine();
-            Console.WriteLine("KUND. För att lägga till kunder.");
-            Console.WriteLine("PRODUKT. För att lägga till vad kunden har Köpt?");
-            Console.WriteLine("LISTA. För att se listan på ordrar.");
+            var kund = new Customer();
+            while (true)
+            {
+                Console.WriteLine("Do you want to make a purchase?");
+                if (Console.ReadLine().ToLower() == "yes")
+                {
+                    Console.WriteLine("What do you want to buy?");
+                    var product = new Product() { _productName = Console.ReadLine() };
+                }
+                else
+                    break;
 
+                Console.WriteLine("Do you want to view your cart?");
+                if (Console.ReadLine().ToLower() == "yes")
+                    foreach (var item in kund._cart)
+                        Console.WriteLine(item._productName);
+                else
+                    Console.WriteLine("Suck a duck!");
+            }
         }
-
-        public void Kund()
-        {
-            Console.WriteLine("Skriv in kundens Namn");
-
-
-
-        }
-
-        public void Produkt()
-        {
-            Console.WriteLine("Skriv Kundes Produkt"); 
-
-           
-
-           
-        }
-
-        public void Lista()
-        {
-
-
-
-        }
-
-
-
-
-
-
     }
-
-
-
-
-
 }
