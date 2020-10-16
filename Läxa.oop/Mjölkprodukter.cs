@@ -6,5 +6,18 @@ namespace Läxa.oop
 {
     class Mjölkprodukter
     {
+
+        public string kakao;
+
+        string[] Mjölkprodukters = { "lättmjölk", "mjölk0%", "fettmjölk", "vattenmjölk" };
+        
     }
+
+
+    class gammalmjölk : Mjölkprodukter 
+    {
+        string[] Mjölkproduktavdelning = { "keso", "youghurt", "yogi", "kefir" };
+    }
+
+
 }
