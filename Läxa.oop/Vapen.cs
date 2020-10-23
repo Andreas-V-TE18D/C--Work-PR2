@@ -6,8 +6,6 @@ namespace Läxa.oop
 {
     class Vapen
     {
-
-        public string kalashinkov;
         string[] vapen = { "kalashikov", "Ak47", "Berreta", "Minigun" };
          
 

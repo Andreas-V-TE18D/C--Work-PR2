@@ -12,6 +12,7 @@ namespace Variabler.och.Datatyper
             Console.WriteLine("Skriv Din Ålder");
             Console.WriteLine("Skriv Ditt Namn");
             Console.WriteLine("Skriv om Du är död eller levande"); 
+            Console.WriteLine("")
             //tar input från användaren 
             int age = Convert.ToInt32(Console.ReadLine());
             string namn = (Console.ReadLine());

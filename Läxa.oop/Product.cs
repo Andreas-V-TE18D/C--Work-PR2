@@ -6,6 +6,21 @@ namespace OOPIntro
 {
     class Product
     {
-        public string _productName;
+        
     }
+    class Mjölkprodukter : Product
+    {
+
+    }
+
+    class Vapen : Product
+    {
+
+    }
+    class husdjur : Product
+    {
+
+    }
+
+
 }
