@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\miniraknare\\miniraknare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\miniraknare\\miniraknare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\Calculator\\Calculator.csproj",
-        "projectName": "Calculator",
-        "projectPath": "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\miniraknare\\miniraknare.csproj",
+        "projectName": "miniraknare",
+        "projectPath": "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\miniraknare\\miniraknare.csproj",
         "packagesPath": "C:\\Users\\andreas.vins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\andreas.vins\\Documents\\GitHub\\source\\repos\\C--Work-PR2\\miniraknare\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andreas.vins\\AppData\\Roaming\\NuGet\\NuGet.Config",
