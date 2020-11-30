@@ -5,8 +5,64 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:miniraknare"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Miniräknare" Height="430" Width="280">
+    
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+
+        </Grid.RowDefinitions>
+        
+        <!-- Knappar siffrorna -->
+        <Button x:Name="knp7" Grid.Row="2" Grid.Column="0" Click="knp7_Click">7</Button>
+        <Button x:Name="knp8" Grid.Row="2" Grid.Column="1" Click="knp8_Click">8</Button>
+        <Button x:Name="knp9" Grid.Row="2" Grid.Column="2" Click="knp9_Click">9</Button>
+
+        <Button x:Name="knp4" Grid.Row="3" Grid.Column="0" Click="knp4_Click">4</Button>
+        <Button x:Name="knp5" Grid.Row="3" Grid.Column="1" Click="knp5_Click">5</Button>
+        <Button x:Name="knp6" Grid.Row="3" Grid.Column="2" Click="knp6_Click">6</Button>
+
+        <Button x:Name="knp1" Grid.Row="4" Grid.Column="0" Click="knp1_Click">1</Button>
+        <Button x:Name="knp2" Grid.Row="4" Grid.Column="1" Click="knp2_Click">2</Button>
+        <Button x:Name="three" Grid.Row="4" Grid.Column="2" Click="three_Click">3</Button>
+
+        <Button x:Name="knp0" Grid.Row="5" Grid.Column="1" Click="knp0_Click">0</Button>
+        
+        <!-- Räknesätten knappar-->
+        <Button x:Name="knpPlus" Grid.Row="1" Grid.Column="3" Click="knpPlus_Click">+</Button>
+        <Button x:Name="knpMinus" Grid.Row="2" Grid.Column="3" Click="knpMinus_Click">-</Button>
+        <Button x:Name="knpGånger" Grid.Row="3" Grid.Column="3" Click="knpGånger_Click">*</Button>
+        <Button x:Name="knpDela" Grid.Row="4" Grid.Column="3" Click="knpDela_Click">/</Button>
+        <Button x:Name="knpLika" Grid.Row="5" Grid.Column="3" Click="knpLika_Click">=</Button>
+        
+        <!-- Andra Knappar-->
+        <Button x:Name="knpRensa" Grid.Row="1" Grid.Column="0" Click="knpRensa_Click">RENSA</Button>
+        <Button x:Name="knpC" Grid.Row="1" Grid.Column="1" Click="knpC_Click">c</Button>
+        <Button x:Name="knpMellan" Grid.Row="1" Grid.Column="2" Click="knpMellan_Click">"::"</Button>
+
+        <Button x:Name="knpPlusMinus" Grid.Row="5" Grid.Column="0" Click="knpPlusMinus_Click">+-</Button>
+        
+        <!--Output text-->
+        <TextBox x:Name="OutPText" IsReadOnly="True" 
+                 TextAlignment="Right"  
+                 Grid.Row="0" Grid.Column="0" 
+                 Grid.ColumnSpan="4"
+                 VerticalAlignment="Bottom"
+                 FontSize="40"
+                 BorderThickness="0"
+                 >0</TextBox>
 
     </Grid>
 </Window>
