@@ -1,0 +1,15 @@
+C:\Users\andreas.vins\source\repos\enfless runer\bin\Debug\enfless runer.exe.config
+C:\Users\andreas.vins\source\repos\enfless runer\bin\Debug\enfless runer.exe
+C:\Users\andreas.vins\source\repos\enfless runer\bin\Debug\enfless runer.pdb
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer.csprojAssemblyReference.cache
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\MainWindow.g.cs
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\App.g.cs
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer_MarkupCompile.cache
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer_MarkupCompile.lref
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\MainWindow.baml
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer.g.resources
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless_runer.Properties.Resources.resources
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer.csproj.GenerateResource.cache
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer.csproj.CoreCompileInputs.cache
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer.exe
+C:\Users\andreas.vins\source\repos\enfless runer\obj\Debug\enfless runer.pdb

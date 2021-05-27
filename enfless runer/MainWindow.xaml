@@ -1,0 +1,23 @@
+﻿<Window x:Class="enfless_runer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:enfless_runer"
+        mc:Ignorable="d"
+        Title="Endless runner game" Height="450" Width="800">
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
+        <!--För bakgrundsbilden samma höjd och width-->
+        <Rectangle Name="background" Height="400" Width="1262" Fill="Orange" Canvas.Left="0" />
+        <Rectangle Name="background2" Height="400" Width="1262" Fill="LightGreen" Canvas.Left="1262" />
+        <!--Marken som spelaren landdar på-->
+        <Rectangle Name="ground" Height="32" Width="792" Fill="Black" Canvas.Top="387" Canvas.Left="0" />
+        <!--För spelaren-->
+        <Rectangle Name="player" Height="99" Width="67" Fill="Brown" Canvas.Top="151" Canvas.Left="110" />
+        <!--För hinder-->
+        <Rectangle Name="obstacle" Height="178" Width="50" Fill="Red" Canvas.Top="320" Canvas.Left="721" />
+        <!--Visar poängen-->
+        <Label Name="scoreText" FontSize="32" FontWeight="Bold" Content="Score: 0" />
+
+    </Canvas>
+</Window>
