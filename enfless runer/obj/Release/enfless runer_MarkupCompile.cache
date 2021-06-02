@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\enfless runer\obj\Debug\
+C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\enfless runer\obj\Release\
 enfless_runer
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\enfless runer\App.xaml
 11151548125
 
@@ -16,5 +16,5 @@ C:\Users\andreas.vins\Documents\GitHub\source\repos\C--Work-PR2\enfless runer\Ap
 13-1505183044
 MainWindow.xaml;
 
-False
+True
 

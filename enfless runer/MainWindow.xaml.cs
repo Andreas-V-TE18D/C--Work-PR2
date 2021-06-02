@@ -38,7 +38,7 @@ namespace enfless_runer
 
         Random rnd = new Random();
 
-        bool gameOver;
+        bool gameOver; //variabel för när spelet är slut 
 
         double spriteIndex = 0;
 
@@ -47,10 +47,10 @@ namespace enfless_runer
         ImageBrush backgroundSprite = new ImageBrush();
         ImageBrush obstacleSprite = new ImageBrush();
 
-        //int array 
+        //int array, posionerar hindret på den visuela bakgrunden 
         int[] obstaclePosition = { 320, 310, 300, 305, 315, };
 
-        int score = 0;
+        int score = 0; //int för poängen 
 
 
         public MainWindow()
@@ -62,7 +62,7 @@ namespace enfless_runer
             gameTimer.Tick += GameEngine;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
 
-            // detta tildelar bild till sprite
+            // detta tildelar bild till sprite, altså skapar en väg för funktionen att ta bilden från mappen images och sätter den som bakgrund
             backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/background.gif"));
 
             background.Fill = backgroundSprite;
@@ -75,9 +75,9 @@ namespace enfless_runer
 
         private void GameEngine(object sender, EventArgs e)
         {
-            //för rörande backgrund 
-            Canvas.SetLeft(background, Canvas.GetLeft(background) - 3);
-            Canvas.SetLeft(background2, Canvas.GetLeft(background2) - 3);
+            //för rörande backgrund, altså hur snabbt bakcgrunden rör sig 
+            Canvas.SetLeft(background, Canvas.GetLeft(background) - 3); //man kan ändra de här siffrorna för att justera hastigheten på spelet
+            Canvas.SetLeft(background2, Canvas.GetLeft(background2) - 3);//högre sifra ger hörge hastighet
 
            if (Canvas.GetLeft(background) < - 1262) 
             {
@@ -96,7 +96,7 @@ namespace enfless_runer
             scoreText.Content = "Score: " + score;
 
 
-            //tildelar hitboxarna 
+            //tildelar hitboxarna, altså länkar c# koderna med rektanglarna i canvas altså i MainWindow.xaml
             playerHitBox = new Rect(Canvas.GetLeft(player), Canvas.GetTop(player), player.Width - 15, player.Height);
             obstacleHitBox = new Rect(Canvas.GetLeft(obstacle), Canvas.GetTop(obstacle), obstacle.Width, obstacle.Height);
             groundHitBox = new Rect(Canvas.GetLeft(ground), Canvas.GetTop(ground), ground.Width, ground.Height);
@@ -125,7 +125,7 @@ namespace enfless_runer
             }
 
             //för hopp funktion 
-            if (jumping == true)
+            if (jumping == true) //hur högt och snabbt spelaren kommer hoppa upåt när mellanslagstangenten släpps
             {
                 speed = -9;
 
@@ -133,7 +133,7 @@ namespace enfless_runer
             }
             else
             {
-                speed = 12;
+                speed = 12; //Hastigheten spelaren faller nedåt
             }
 
             if (force < 0)
@@ -150,7 +150,7 @@ namespace enfless_runer
                 score += 1;
 
             }
-            //om spelaren rör hinder
+            //om spelaren rör hinder, alltså när playerHitBox rör obstacleHitBox körs det här if. 
             if (playerHitBox.IntersectsWith(obstacleHitBox))
             {
                 gameOver = true;
@@ -158,7 +158,7 @@ namespace enfless_runer
                 gameTimer.Stop();
             }
 
-            if (gameOver == true)
+            if (gameOver == true) //Den här if körs när gameover == true altså när spelaren har nudat hindret då visas en röd och svart linje runt hitboxarna och medelandet popar up också  
             {
                 obstacle.Stroke = Brushes.Black;
                 obstacle.StrokeThickness = 1;
@@ -182,7 +182,7 @@ namespace enfless_runer
 
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Enter && gameOver == true) //Om spelaren förlorar kan man trycka enter för att börja om 
+            if (e.Key == Key.Enter && gameOver == true) //Om spelaren förlorar kan man trycka enter för att börja om, altså StartGame körs
             {
                 StartGame();
             }
@@ -191,8 +191,8 @@ namespace enfless_runer
         }
 
         private void KeyIsUp(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Space && jumping == false && Canvas.GetTop(player) > 260)
+        { //den här if är till för att när spelaren släpper mellanslagstangenten så körs den här if, då byter playersprite till bild numer 2 tills den landar  
+           if (e.Key == Key.Space && jumping == false && Canvas.GetTop(player) > 260) 
             {
                 jumping = true;
                 force = 15;
@@ -217,7 +217,7 @@ namespace enfless_runer
             Canvas.SetTop(obstacle, 310);
 
             RunSprite(1);
-            // Tildelar bild från mapen images till hinder 
+            // Tildelar bild från mapen images till hinder, altså skapar en väg så att funktionen kan hitta bilden i mapen images
             obstacleSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/obstacle.png"));
             obstacle.Fill = obstacleSprite;
 
@@ -225,7 +225,7 @@ namespace enfless_runer
             gameOver = false;
             score = 0;
 
-            scoreText.Content = "Score: " + score;
+            scoreText.Content = "Score: " + score; //läger till poängen i score
 
             gameTimer.Start();
 
@@ -233,8 +233,8 @@ namespace enfless_runer
 
         private void RunSprite(double i)
         {
-            //byter bilder för att få en animation till spelaren 
-            switch (i)
+            //byter bilder för att få en animation till spelaren, och skapar en väg för funktionen att hitta bilderna i mappen images  
+            switch (i) //alltså switch-satsen byter mellan case-saterna snabbt och varje case avslutas med nyckelordet break;
             {
                 case 1:
                     playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_01.gif"));

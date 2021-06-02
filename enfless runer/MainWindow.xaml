@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Endless runner game" Height="450" Width="800">
     <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
-        <!--För bakgrundsbilden samma höjd och width-->
+        <!--För bakgrundsbilden samma höjd och width, skappar en form som man kan ge funktioner-->
         <Rectangle Name="background" Height="400" Width="1262" Fill="Orange" Canvas.Left="0" />
         <Rectangle Name="background2" Height="400" Width="1262" Fill="LightGreen" Canvas.Left="1262" />
         <!--Marken som spelaren landdar på-->
